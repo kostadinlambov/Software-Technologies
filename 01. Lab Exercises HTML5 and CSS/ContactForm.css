@@ -1,0 +1,32 @@
+form{
+   display: inline-block;
+    background: #eee;
+}
+form span{
+    display: inline-block;
+    width: 80px;
+    background: #eee;
+    margin: 10px 3px 3px 8px;
+}
+form input, form select{
+    width: 150px;
+    height: 20px;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    background-color: #feffb7;
+}
+form select{
+    margin: 0 5px;
+}
+form input[type="submit"]{
+    display: block;
+    margin: 10px 0 12px 100px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid deepskyblue;
+    background-color: #3d5199;
+    color: white;
+    border-radius: 3px;
+}

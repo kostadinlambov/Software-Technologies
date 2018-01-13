@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+.label {
+    display: inline-block;
+    width: 90px;
+}
+.form-group {
+    padding: 2px 0;
+}
+.form-group input[type="text"]{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.form-group input[type="submit"]{
+    border: 1px solid #6686ff;
+    background-color: #3d5199;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 7px;
+    margin-left: 95px;
+}
+.form-group input[type="submit"]:hover {
+    cursor: pointer;
+}
+form{
+    background: #c0bec1;
+    padding: 10px;
+    border-radius: 5px;
+    width: 260px;
+}
